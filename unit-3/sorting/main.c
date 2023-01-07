@@ -12,8 +12,8 @@ int main(void) {
   int a[] = {9, 6, 18, 2, 7, 4, 26, 11, 6, 10, 3};
   int size = sizeof(a) / sizeof(int);
 
-  quicksort(a, size);
-  print_array(a, size);
+  //quicksort(a, size);
+  //print_array(a, size);
 
   int b[] = {7, 4, 1, 9, 4, 8, 3, 6, 10, 2};
   int b_size = sizeof(b) / sizeof(int);
@@ -24,7 +24,7 @@ int main(void) {
   int c[] = {6, 2, 7, 3, 4, 1, 8, 9, 11, -5, 19, 12, 4};
   int c_size = sizeof(c) / sizeof(int);
 
-   heapsort(c, c_size);
-   print_array(c, c_size);
+   //heapsort(c, c_size);
+   //print_array(c, c_size);
   return 0;
 }
